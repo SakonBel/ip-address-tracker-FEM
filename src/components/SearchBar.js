@@ -10,10 +10,12 @@ const SearchBar = () => {
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
+
+    return window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
-    <div className="search-box mx-6">
+    <div className="search-box">
       <form className="flex justify-center items-center mx-auto max-w-lg">
         <input
           className="h-14 w-full rounded-l-xl pl-7"
@@ -22,7 +24,7 @@ const SearchBar = () => {
           placeholder={
             size > 460
               ? "Search for any IP address or domain"
-              : "Search for any IP address"
+              : "Search for IP or domain"
           }
         />
         <button className="bg-black h-14 w-16 px-2 flex items-center justify-center rounded-r-xl">
