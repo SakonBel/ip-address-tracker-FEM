@@ -3,7 +3,6 @@ import SearchBar from "./components/SearchBar";
 import { Map, TileLayer, ZoomControl } from "react-leaflet";
 
 function App() {
-  console.log(process.env);
   return (
     <div className="App h-screen min-h-reverse">
       <header className="h-2/5 bg-cover text-center px-6">
