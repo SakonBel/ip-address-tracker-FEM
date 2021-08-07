@@ -16,6 +16,11 @@ body {
 
 header {
   background-image: url("images/pattern-bg.png");
+  height: 36%;
+}
+
+main {
+  height: 64%;
 }
 
 .leaflet-container {
@@ -24,10 +29,18 @@ header {
   z-index: 10;
 }
 
+.info-item {
+  @apply xl:text-left xl:flex-1 xl:border-r xl:pl-8 xl:my-5 border-gray-300;
+}
+
 .info-title {
-  @apply text-d_gray font-bold text-2xs tracking-x_wide uppercase;
+  @apply text-d_gray font-bold text-2xs tracking-x_wide uppercase xl:text-xs xl:pb-4;
 }
 
 .info-detail {
-  @apply font-medium pb-2 -top-1 relative;
+  @apply font-medium pb-2 -top-1 relative xl:text-medium xl:pb-4;
+}
+
+.last {
+  @apply border-0;
 }

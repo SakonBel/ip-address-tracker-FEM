@@ -27,7 +27,7 @@ const SearchBar = () => {
               : "Search for IP or domain"
           }
         />
-        <button className="bg-black h-14 w-16 px-2 flex items-center justify-center rounded-r-xl">
+        <button className="bg-black h-14 w-16 px-2 flex items-center justify-center rounded-r-xl hover:bg-gray-800">
           <img src={arrow} alt="" />
         </button>
       </form>
