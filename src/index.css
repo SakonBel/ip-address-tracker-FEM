@@ -17,6 +17,7 @@ body {
 header {
   background-image: url("images/pattern-bg.png");
   height: 36%;
+  z-index: 20;
 }
 
 main {
@@ -29,16 +30,20 @@ main {
   z-index: 10;
 }
 
+.leaflet-top[class~="leaflet-left"] {
+  visibility: hidden;
+}
+
 .info-item {
-  @apply xl:text-left xl:flex-1 xl:border-r xl:pl-8 xl:my-5 border-gray-300;
+  @apply md:text-left md:flex-1 md:border-r md:pl-8 md:my-5 border-gray-300;
 }
 
 .info-title {
-  @apply text-d_gray font-bold text-2xs tracking-x_wide uppercase xl:text-xs xl:pb-4;
+  @apply text-d_gray font-bold text-2xs tracking-x_wide uppercase xl:text-xs md:pb-4;
 }
 
 .info-detail {
-  @apply font-medium pb-2 -top-1 relative xl:text-medium xl:pb-4;
+  @apply font-medium pb-2 -top-1 relative xl:text-medium md:pb-4;
 }
 
 .last {

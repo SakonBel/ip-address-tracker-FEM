@@ -19,6 +19,7 @@ module.exports = {
       },
       minHeight: {
         reverse: "50vw",
+        desk: "200px",
       },
       maxWidth: {
         med: "70rem",

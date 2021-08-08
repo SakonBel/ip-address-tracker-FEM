@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App h-screen min-h-reverse">
-      <header className="bg-cover text-center px-6 xl:h-hlg">
+      <header className="bg-cover text-center px-6 xl:h-hlg xl:min-h-desk">
         <h1 className="text-2xl font-medium text-white py-7">
           IP Address Tracker
         </h1>
