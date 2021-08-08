@@ -2,6 +2,12 @@ import Info from "./components/Info";
 import SearchBar from "./components/SearchBar";
 import { Map, TileLayer, ZoomControl, Marker, Popup } from "react-leaflet";
 import { useEffect, useState } from "react";
+const pattern = {
+  domain: /^([\w@-]+)(\.[\w@-]+)?(\.[\w@-]+)?\.([a-z]{2,8})(\.[a-z]{2,8})?$/,
+  ipAddress: /^([1-2]?[0-9]?[0-9]\.){3}([1-2]?[0-9]?[0-9])$/,
+  ifDomain: /^[\w]+/i,
+  ifIP: /^[0-9]+/,
+};
 
 function App() {
   // const [information, setInformation] = useState(null);
@@ -28,14 +34,14 @@ function App() {
 
   return (
     <div className="App h-screen min-h-reverse">
-      <header className="bg-cover text-center px-6 xl:h-hlg xl:min-h-desk">
+      <header className="bg-cover text-center px-6 xl:h-hlg xl:min-h-desk duration-200">
         <h1 className="text-2xl font-medium text-white py-7">
           IP Address Tracker
         </h1>
-        <SearchBar />
+        <SearchBar pattern={pattern} />
         <Info />
       </header>
-      <main className="xl:h-mlg">
+      <main className="xl:h-mlg duration-200">
         <Map center={position} tileSize={256} zoom={13} scrollWheelZoom={true}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a> contributors'

@@ -1,7 +1,7 @@
 const Info = () => {
   return (
     <ul className="info-list bg-white rounded-xl flex flex-col md:flex-row   items-center text-center py-5 mt-6 mx-auto md:mt-12 max-w-lg md:max-w-4xl xl:max-w-med justify-evenly relative z-20">
-      <li className="info-item ">
+      <li className="info-item duration-200">
         <div className="">
           <h2 className="info-title ">IP Address</h2>
           {/* {information && <p className="info-detail">{information.ip}</p>} */}
