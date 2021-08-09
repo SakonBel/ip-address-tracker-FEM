@@ -34,6 +34,10 @@ main {
   visibility: hidden;
 }
 
+.leaflet-bottom[class~="leaflet-left"] {
+  bottom: 25px;
+}
+
 .info-item {
   @apply md:text-left md:flex-1 md:border-r md:pl-8 md:my-5 border-gray-300;
 }

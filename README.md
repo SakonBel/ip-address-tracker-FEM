@@ -28,6 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
+![Mobile viewport](https://user-images.githubusercontent.com/63510603/128669377-ceb7a451-21bf-4ddc-8e40-fe3826e12ebd.png)
+![Tablet viewport](https://user-images.githubusercontent.com/63510603/128669388-1c910786-f5c5-47bf-a07c-9066f3520608.png)
+![Desktop viewport](https://user-images.githubusercontent.com/63510603/128669702-65768003-d2e0-40dd-ae39-b9d70d8e017b.png)
+
 ### Links
 
 - Solution URL: [https://github.com/SakonBel/ip-address-tracker-FEM]

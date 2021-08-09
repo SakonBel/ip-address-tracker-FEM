@@ -78,8 +78,8 @@ function App() {
   }, [address, domainName]);
 
   return (
-    <div className="App h-screen md:min-h-reverse min-h-mobile">
-      <header className="bg-cover text-center px-6 xl:h-hlg xl:min-h-desk duration-200">
+    <div className="App h-screen xs:min-h-minitab sm:min-h-tablet md:min-h-reverse min-h-mobile">
+      <header className="bg-cover text-center px-6 h-2/5 xl:h-hlg xl:min-h-desk duration-200">
         <h1 className="text-2xl font-medium text-white py-7">
           IP Address Tracker
         </h1>
@@ -91,7 +91,7 @@ function App() {
         />
         <Info information={information} />
       </header>
-      <main className="xl:h-mlg duration-200">
+      <main className="h-3/5 md:min-h-tab xl:h-mlg duration-200">
         <Map center={position} tileSize={256} zoom={13} scrollWheelZoom={true}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a> contributors'
