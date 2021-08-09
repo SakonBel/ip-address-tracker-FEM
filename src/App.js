@@ -78,7 +78,7 @@ function App() {
   }, [address, domainName]);
 
   return (
-    <div className="App h-screen min-h-reverse">
+    <div className="App h-screen md:min-h-reverse min-h-mobile">
       <header className="bg-cover text-center px-6 xl:h-hlg xl:min-h-desk duration-200">
         <h1 className="text-2xl font-medium text-white py-7">
           IP Address Tracker

@@ -19,6 +19,7 @@ module.exports = {
       },
       minHeight: {
         reverse: "50vw",
+        mobile: "100vw",
         desk: "200px",
       },
       maxWidth: {

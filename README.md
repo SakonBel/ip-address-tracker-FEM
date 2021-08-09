@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Frontend Mentor - IP address tracker solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### The challenge
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Users should be able to:
 
-### `npm test`
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements on the page
+- See their own IP address on the map on the initial page load
+- Search for any IP addresses or domains and see the key information and location
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+### Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Solution URL: [https://github.com/SakonBel/ip-address-tracker-FEM]
+- Live Site URL: [https://sakonbel.github.io/ip-address-tracker-FEM/]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## My process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built with
 
-### `npm run eject`
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Tailwind Css
+- JavaScript
+- Regular Expression
+- API
+- React
+- Mobile-first workflow
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### What I learned
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Tailwind CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project is a tough one about CSS for me because I use Tailwind in my project for the first time. Can't say that I love how Tailwind work that much, but I've manage to get the work done. The utilities CSS classes nature in tailwind make me have to constantly look at the documentation for every little thing to be able to know what the classs it use. That make me waste a lot of time styling CSS. Anyway, I think I will keep learning Tailwind because I think it will be later come in handy(when I'm good enough).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### JavaScript
 
-## Learn More
+Since this project is React-base JavaScript is the essential here. The concept that I learned in this project is asynchronous JavaScript and how to fetch the resource. How to use Promises and the methods that come with it. I think I gain quite a knowledge in this.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I'm still continue learning React in this project and I think I need to learn more about many concept in React. In this project I begin to use the Ref hook for the first time and also trying to minimize the rendering as much as possible. I'm still have a long way to perfect React but I will keep on learning.
 
-### Code Splitting
+#### Regular Expression
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is again require the use of RegEx(or so I thought). That's why I be able to use RegEx again and polish my knowledge about RegEx and how it work.
 
-### Analyzing the Bundle Size
+#### API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The main goal for this project is the API. I've come to learned how it work, how we can use it and overcome API concept that intimidate me for a long time thanks to this project. I've use 2 APIs in this project too and this kind of reinforce me to learn API twice and I think it good for me to let the concept sink in.
 
-### Making a Progressive Web App
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I have come to realise the importance about what the tool I should use, and how to use the tools properly for the project. So I think in the next project I may try to learn how to use some tools. the area that I want to learn next is...
 
-### Advanced Configuration
+- Performance
+- Browser tools
+- Testing
+- More React methods
+- Accessibility
+- Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Useful resources
 
-### Deployment
+- [Freecodecamp youtube channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) - This youtube channel give me the understanding of how API work and what it actually is. Before this all of this word sound so mysterious to me. Many thanks for this awesome community.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [The Net Ninja youtube channel](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) - Shaun is a great teacher and a great programmer at the same time. No one is able to explain the concept as clear as him, so I will recommend anyone who want to learn concept of some topic to have a look in this channel. You won't regret it.
 
-### `npm run build` fails to minify
+- [Web Dev Simplify youtube channel](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) - I watch the video in this site from time to time to expand my knowledge. Sometimes I find that the problem at hand can be solve by using the methods in this site. And I know some concept that other site don't provide too.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Stack overflow](https://stackoverflow.com) - As always a good site for finding many kind of answers.
+
+## Author
+
+Made by Sakon Plangklang
+
+- Frontend Mentor - [@SakonSabel](https://www.frontendmentor.io/profile/SakonSabel)
+- Twitter - [@WhitePhantoms](https://twitter.com/WhitePhantoms)
