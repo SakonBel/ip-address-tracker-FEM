@@ -50,10 +50,12 @@ function App() {
     e.preventDefault();
     if (typeAddress === "valid") {
       setAddress(textValue.current);
+      setDomainName("");
     }
 
     if (typeText === "valid") {
       setDomainName(textValue.current);
+      setAddress("");
     }
   };
 
